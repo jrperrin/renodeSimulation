@@ -12,7 +12,7 @@ This repo shows you how to run a Hello World app for a nRF52 device using Renode
 Only tested on Windows 10 
 
 **Build and Run**
-Run make to recreate the included elf file
+Run make to recreate the included elf file if desired
 `cd ./src/hello_world/pca10056/blank/armgcc/makefile`
 `make`
 
