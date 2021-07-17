@@ -9,17 +9,21 @@ This repo shows you how to run a Hello World app for a nRF52 device using Renode
 * Install GNU  Make (I used MSYS2)
 
 **Notes**
+
 Only tested on Windows 10 
 
 **Build and Run**
 Run make to recreate the included elf file if desired
+
 `cd ./src/hello_world/pca10056/blank/armgcc/makefile`
 `make`
 
 **Run Renode Default Zephyr Project** 
+
 `renode --console -e "i @scripts/nrf52840.resc; s"`
 
 **Run Hello World Build**
+
 `renode --console -e "i @scripts/hello_world.resc; s"`
 
 Look for the "Hello, World!" output in the UART0 window.
